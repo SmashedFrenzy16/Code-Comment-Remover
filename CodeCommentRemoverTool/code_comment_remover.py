@@ -48,8 +48,6 @@ for num in range(len(contents)):
 
             contents.insert(num - decrease_count, nline)
 
-file.close()
-
 with open("uncommentedcode.py", "w") as nfile:
 
     nfile.writelines(contents)
