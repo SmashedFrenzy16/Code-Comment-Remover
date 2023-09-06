@@ -1,4 +1,4 @@
-with open("code_comment_remover.py") as file:
+with open("commentcode.py") as file:
 
     contents = file.readlines()
 
